@@ -52,29 +52,3 @@ playlist = sp.user_playlist_create(user=user_id,
 # add tracks to playlist:
 playlist_id = playlist["id"]
 sp.playlist_add_items(playlist_id=playlist_id, items=song_uris)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
